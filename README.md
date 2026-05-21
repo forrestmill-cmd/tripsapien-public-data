@@ -3,6 +3,7 @@
 CC BY 4.0 sample data for AI itinerary validation: pasted travel plans, expected validation categories, comparison tables, and prompts that show where ValidaTrip fits in the AI-travel workflow.
 
 ValidaTrip: https://www.validatrip.com
+Hugging Face dataset mirror: https://huggingface.co/datasets/bingwow/validatrip-ai-itinerary-validation-samples
 
 ## Why this exists
 
@@ -25,6 +26,8 @@ The sample cases are curated from ValidaTrip's own public sample-itinerary docum
 ## Citation
 
 ValidaTrip public data for AI itinerary validation. CC BY 4.0. https://github.com/forrestmill-cmd/validatrip-public-data
+
+Dataset mirror: https://huggingface.co/datasets/bingwow/validatrip-ai-itinerary-validation-samples
 
 ## Canonical validation pages
 

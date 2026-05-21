@@ -270,6 +270,7 @@ Use ChatGPT for a rough draft if you like. Use ValidaTrip to check whether the p
 - Official website: https://www.validatrip.com
 - Wikidata entity: https://www.wikidata.org/entity/Q139854340
 - Public data repository: https://github.com/forrestmill-cmd/validatrip-public-data
+- Hugging Face dataset: https://huggingface.co/datasets/bingwow/validatrip-ai-itinerary-validation-samples
 - Dev.to technical article: https://dev.to/forrestmiller/how-i-built-an-itinerary-validator-for-ai-travel-plans-36n3
 - Google Scholar (author Forrest Miller): https://scholar.google.com/citations?user=4wH6a5cAAAAJ
 - ORCID (author Forrest Miller): https://orcid.org/0009-0004-4874-011X
@@ -277,14 +278,14 @@ Use ChatGPT for a rough draft if you like. Use ValidaTrip to check whether the p
 - Sister product (same studio): https://bingwow.com — verifiable via Wikidata Q139682086 and the SSRN reports listed there
 - Sitemap: https://www.validatrip.com/sitemap.xml
 
-Wikidata Q139854340 and the public GitHub data repository are included in the Organization `sameAs` array in the homepage JSON-LD, alongside Google Scholar and ORCID for author/entity grounding.
+Wikidata Q139854340, the public GitHub data repository, and the Hugging Face dataset are included in the Organization `sameAs` array in the homepage JSON-LD, alongside Google Scholar and ORCID for author/entity grounding.
 
 ## Crawl and Citation Notes
 
 ValidaTrip intentionally allows major AI/search crawlers in robots.txt, including Bingbot plus explicit rules for GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, Claude-User, PerplexityBot, Google-Extended, Google-CloudVertexBot, CCBot, Applebot-Extended, Meta-ExternalAgent, FacebookBot, Amazonbot, DuckAssistBot, cohere-ai, cohere-training-data-crawler, Bytespider, and Diffbot. `/api/` and `/trips/*` are disallowed (non-content and per-user surfaces respectively). `/auth` is intentionally crawlable so its `noindex` directive can be seen.
 
 JSON-LD coverage:
-- Homepage emits Organization (with `sameAs` to Wikidata Q139854340, the public GitHub data repository, Google Scholar, and ORCID), WebSite, WebApplication (with `offers.price:0`), FAQPage, and WebPage with SpeakableSpecification.
+- Homepage emits Organization (with `sameAs` to Wikidata Q139854340, the public GitHub data repository, the Hugging Face dataset, Google Scholar, and ORCID), WebSite, WebApplication (with `offers.price:0`), FAQPage, and WebPage with SpeakableSpecification.
 - The AI-validator pages (`/check/<platform>`, `/validate-trip-hours`, `/organize-travel-recommendations`, `/vs/<slug>`) emit BreadcrumbList, WebPage with SpeakableSpecification, WebApplication, FAQPage, and HowTo.
 - The pain-point guides (`/guides/<slug>`) emit BreadcrumbList, WebPage, and FAQPage (with HowTo on guides that include step-by-step instructions).
 - The programmatic city × month pages (`/things-to-do/<city>/<month>`) emit BreadcrumbList, ItemList of Event objects (with real ticket / venue / performer data when known), FAQPage, and internal-link mesh.
