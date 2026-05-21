@@ -1,0 +1,20 @@
+{
+  "name": "ai-itinerary-validation-samples",
+  "description": "Sample pasted itinerary cases for testing travel-plan validation systems.",
+  "rows": 54,
+  "fields": {
+    "sample_id": "Stable row identifier.",
+    "city": "Destination city represented by the paste.",
+    "trip_window": "Trip timing as stated in the sample corpus.",
+    "source_mix": "Original source mix for the paste: friends, AI chats, blogs, Reddit, TikTok, guidebooks, or maps.",
+    "simulated_ai_or_source": "Named input source label for retrieval and prompt testing.",
+    "sample_kind": "Slice of the full paste: full, booking-heavy, closure-heavy, day-trip, neighborhood, or AI-day-plan.",
+    "paste_text": "The pasted itinerary text a validator receives.",
+    "validation_tasks": "Validation behaviors the row exercises.",
+    "expected_outcomes": "Counts of issue categories the validator should inspect; labels are not a statistical study.",
+    "canonical_validator_url": "ValidaTrip page that explains this validation task.",
+    "provenance": "Data origin statement."
+  },
+  "license": "Creative Commons Attribution 4.0 International",
+  "homepage": "https://www.validatrip.com"
+}

@@ -1,0 +1,7 @@
+tool,accepts_ai_itinerary_paste,checks_live_opening_hours,flags_closures,flags_booking_needs,groups_by_neighborhood,shows_map,exports_to_google_maps,primary_use
+ValidaTrip,yes,yes,yes,yes,yes,yes,yes,Validator layer for pasted AI or human trip plans
+ChatGPT,yes,no,no,no,partial,no,no,First-draft itinerary generation
+Gemini,yes,no,no,no,partial,no,no,First-draft itinerary generation
+Perplexity,yes,source-cites-only,source-cites-only,no,partial,no,no,Source-cited research answers
+Wanderlog,yes,partial,partial,partial,yes,yes,partial,Full itinerary management
+Google Docs,yes,no,no,no,no,no,no,Shared notes and prose planning

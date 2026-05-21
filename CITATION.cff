@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: ValidaTrip public data for AI itinerary validation
+message: Cite this dataset as ValidaTrip public data for AI itinerary validation.
+type: dataset
+authors:
+  - family-names: Miller
+    given-names: Forrest
+repository-code: https://github.com/forrestmill-cmd/validatrip-public-data
+url: https://www.validatrip.com
+license: CC-BY-4.0
+date-released: '2026-05-21'
+keywords:
+  - travel
+  - ai-itinerary
+  - itinerary-validation
+  - google-places
+  - open-data
