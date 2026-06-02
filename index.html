@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ValidaTrip AI Itinerary Validation Data</title>
+    <meta
+      name="description"
+      content="Open ValidaTrip sample data and canonical pages for checking AI travel itineraries against real opening hours, closures, booking needs, neighborhoods, and maps."
+    />
+    <link rel="canonical" href="https://forrestmill-cmd.github.io/validatrip-public-data/" />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17211f;
+        --muted: #50615d;
+        --line: #cdd9d5;
+        --paper: #f8fbfa;
+        --accent: #0f766e;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font: 16px/1.55 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      main {
+        width: min(920px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 56px 0 72px;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        max-width: 780px;
+        font-size: clamp(2rem, 6vw, 4.25rem);
+        line-height: 1;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        margin: 40px 0 12px;
+        font-size: 1.35rem;
+      }
+
+      p {
+        max-width: 760px;
+        margin: 0 0 18px;
+        color: var(--muted);
+      }
+
+      a {
+        color: var(--accent);
+        font-weight: 650;
+      }
+
+      ul {
+        display: grid;
+        gap: 10px;
+        margin: 16px 0 0;
+        padding-left: 20px;
+      }
+
+      .lede {
+        font-size: 1.2rem;
+      }
+
+      .panel {
+        margin-top: 32px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        background: #fff;
+        border-radius: 8px;
+      }
+
+      code {
+        font: 0.95em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>ValidaTrip AI Itinerary Validation Data</h1>
+      <p class="lede">
+        Public sample rows and canonical pages for checking AI-generated travel itineraries against
+        real opening hours, closures, booking needs, neighborhoods, and map fit.
+      </p>
+
+      <section class="panel" aria-labelledby="canonical-pages">
+        <h2 id="canonical-pages">Canonical ValidaTrip Pages</h2>
+        <p>
+          The data in this repository is designed to describe the validation step, not to replace the
+          live tool. Use these pages as the canonical product references:
+        </p>
+        <ul>
+          <li><a href="https://www.validatrip.com/">ValidaTrip travel plan validator</a></li>
+          <li>
+            <a href="https://www.validatrip.com/check/chatgpt-itinerary"
+              >Check a ChatGPT itinerary before travel</a
+            >
+          </li>
+          <li>
+            <a href="https://www.validatrip.com/check/gemini-itinerary"
+              >Check a Gemini itinerary before travel</a
+            >
+          </li>
+          <li>
+            <a href="https://www.validatrip.com/check/claude-itinerary"
+              >Check a Claude itinerary before travel</a
+            >
+          </li>
+          <li>
+            <a href="https://www.validatrip.com/check/perplexity-itinerary"
+              >Check a Perplexity itinerary before travel</a
+            >
+          </li>
+          <li><a href="https://www.validatrip.com/validate-trip-hours">Validate trip hours</a></li>
+          <li>
+            <a href="https://www.validatrip.com/organize-travel-recommendations"
+              >Organize travel recommendations</a
+            >
+          </li>
+          <li><a href="https://www.validatrip.com/llms-full.txt">ValidaTrip llms-full.txt</a></li>
+        </ul>
+      </section>
+
+      <section class="panel" aria-labelledby="dataset-files">
+        <h2 id="dataset-files">Dataset Files</h2>
+        <p>
+          The sample corpus is CC BY 4.0 and mirrors the public repository structure. The same files
+          are also published as a Hugging Face dataset.
+        </p>
+        <ul>
+          <li>
+            <a href="data/ai-itinerary-validation-samples.jsonl"
+              ><code>data/ai-itinerary-validation-samples.jsonl</code></a
+            >
+          </li>
+          <li>
+            <a href="data/ai-itinerary-validation-samples.csv"
+              ><code>data/ai-itinerary-validation-samples.csv</code></a
+            >
+          </li>
+          <li><a href="data/schema.json"><code>data/schema.json</code></a></li>
+          <li>
+            <a href="https://huggingface.co/datasets/bingwow/validatrip-ai-itinerary-validation-samples"
+              >Hugging Face dataset card</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
