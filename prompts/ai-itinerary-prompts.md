@@ -12,4 +12,4 @@ Now list every named place from that itinerary as bullet points. Keep booking no
 
 ## Why validation is still needed
 
-AI tools can write a useful first pass, but they do not reliably verify opening hours, weekly closure days, seasonal schedules, public holidays, or current booking windows for the exact trip dates. Paste the result into https://www.validatrip.com/check/chatgpt-itinerary to check those details.
+AI tools can write a useful first pass, but they do not reliably verify opening hours, weekly closure days, seasonal schedules, public holidays, or current booking windows for the exact trip dates. Paste the result into https://www.tripsapien.com/check/chatgpt-itinerary to check those details.

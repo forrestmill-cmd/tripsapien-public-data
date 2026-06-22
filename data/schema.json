@@ -12,9 +12,9 @@
     "paste_text": "The pasted itinerary text a validator receives.",
     "validation_tasks": "Validation behaviors the row exercises.",
     "expected_outcomes": "Counts of issue categories the validator should inspect; labels are not a statistical study.",
-    "canonical_validator_url": "ValidaTrip page that explains this validation task.",
+    "canonical_validator_url": "Tripsapien page that explains this validation task.",
     "provenance": "Data origin statement."
   },
   "license": "Creative Commons Attribution 4.0 International",
-  "homepage": "https://www.validatrip.com"
+  "homepage": "https://www.tripsapien.com"
 }

@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-title: ValidaTrip public data for AI itinerary validation
-message: Cite this dataset as ValidaTrip public data for AI itinerary validation.
+title: Tripsapien public data for AI itinerary validation
+message: Cite this dataset as Tripsapien public data for AI itinerary validation, formerly ValidaTrip.
 type: dataset
 authors:
   - family-names: Miller
     given-names: Forrest
-repository-code: https://github.com/forrestmill-cmd/validatrip-public-data
-url: https://www.validatrip.com
+repository-code: https://github.com/forrestmill-cmd/tripsapien-public-data
+url: https://www.tripsapien.com
 license: CC-BY-4.0
 date-released: '2026-05-21'
 keywords:
