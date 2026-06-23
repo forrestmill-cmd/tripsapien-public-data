@@ -1,20 +1,55 @@
 {
-  "name": "ai-itinerary-validation-samples",
-  "description": "Sample pasted itinerary cases for testing travel-plan validation systems.",
-  "rows": 54,
-  "fields": {
-    "sample_id": "Stable row identifier.",
-    "city": "Destination city represented by the paste.",
-    "trip_window": "Trip timing as stated in the sample corpus.",
-    "source_mix": "Original source mix for the paste: friends, AI chats, blogs, Reddit, TikTok, guidebooks, or maps.",
-    "simulated_ai_or_source": "Named input source label for retrieval and prompt testing.",
-    "sample_kind": "Slice of the full paste: full, booking-heavy, closure-heavy, day-trip, neighborhood, or AI-day-plan.",
-    "paste_text": "The pasted itinerary text a validator receives.",
-    "validation_tasks": "Validation behaviors the row exercises.",
-    "expected_outcomes": "Counts of issue categories the validator should inspect; labels are not a statistical study.",
-    "canonical_validator_url": "Tripsapien page that explains this validation task.",
-    "provenance": "Data origin statement."
-  },
+  "name": "tripsapien-public-data",
+  "description": "Public Tripsapien data for AI itinerary validation and city-guide discovery.",
   "license": "Creative Commons Attribution 4.0 International",
-  "homepage": "https://www.tripsapien.com"
+  "homepage": "https://www.tripsapien.com",
+  "datasets": {
+    "ai-itinerary-validation-samples": {
+      "description": "Sample pasted itinerary cases for testing travel-plan validation systems.",
+      "rows": 54,
+      "files": [
+        "data/ai-itinerary-validation-samples.jsonl",
+        "data/ai-itinerary-validation-samples.csv"
+      ],
+      "fields": {
+        "sample_id": "Stable row identifier.",
+        "city": "Destination city represented by the paste.",
+        "trip_window": "Trip timing as stated in the sample corpus.",
+        "source_mix": "Original source mix for the paste: friends, AI chats, blogs, Reddit, TikTok, guidebooks, or maps.",
+        "simulated_ai_or_source": "Named input source label for retrieval and prompt testing.",
+        "sample_kind": "Slice of the full paste: full, booking-heavy, closure-heavy, day-trip, neighborhood, or AI-day-plan.",
+        "paste_text": "The pasted itinerary text a validator receives.",
+        "validation_tasks": "Validation behaviors the row exercises.",
+        "expected_outcomes": "Counts of issue categories the validator should inspect; labels are not a statistical study.",
+        "canonical_validator_url": "Tripsapien page that explains this validation task.",
+        "provenance": "Data origin statement."
+      }
+    },
+    "tripsapien-city-hubs": {
+      "description": "Evergreen Tripsapien city-guide rows for search, citation, and city travel planning discovery.",
+      "rows": 155,
+      "files": [
+        "data/tripsapien-city-hubs.jsonl",
+        "data/tripsapien-city-hubs.csv"
+      ],
+      "fields": {
+        "type": "Stable row type, currently tripsapien_city_hub.",
+        "city_slug": "Tripsapien SEO city slug.",
+        "city": "City display name.",
+        "country": "Country display name.",
+        "country_code": "ISO country code used by Tripsapien.",
+        "canonical_url": "Evergreen city-guide URL.",
+        "current_month_url": "Current rolling city-month guide URL when that month-spoke page is indexed.",
+        "current_event_url": "Current rolling event page URL when that event-spoke page is indexed.",
+        "top_attractions": "Top attraction names from the public city-guide snapshot.",
+        "neighborhoods": "Neighborhood names from the public city-guide snapshot.",
+        "day_trips": "Day-trip names from the public city-guide snapshot.",
+        "best_months": "Climate-derived best months used by the evergreen city guide.",
+        "overview": "Public city-guide overview text.",
+        "source": "Source snapshot family.",
+        "license": "Row license.",
+        "generated_on": "Dataset generation date."
+      }
+    }
+  }
 }
