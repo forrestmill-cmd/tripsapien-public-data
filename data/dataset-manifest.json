@@ -1,0 +1,63 @@
+{
+  "name": "TripSapien public data",
+  "version": "2026-07-13",
+  "license": "CC BY 4.0",
+  "canonical_dataset_page": "https://www.tripsapien.com/research/ai-itinerary-validation",
+  "repository": "https://github.com/forrestmill-cmd/tripsapien-public-data",
+  "brand": {
+    "current_name": "TripSapien",
+    "former_names": ["Tripnostic", "ValidaTrip", "TripPaste"]
+  },
+  "files": [
+    {
+      "path": "data/ai-itinerary-validation-samples.jsonl",
+      "records": 54,
+      "sha256": "f9693880c6fca60c437f0306a8658192ab74aef37bea204b117b7287a69f70e9"
+    },
+    {
+      "path": "data/ai-itinerary-validation-samples.csv",
+      "records": 54,
+      "sha256": "afa7dbc3c53f9e4c4912a8e61ced92a7ad1ff1909fa95931b33eff02260e0f07"
+    },
+    {
+      "path": "data/schema.json",
+      "sha256": "2ad6b9c98725168e19c0f9fb2c411cdc5ec34d330d8cb49ee23bedf0d07bae52"
+    },
+    {
+      "path": "data/tripsapien-city-hubs.jsonl",
+      "records": 155,
+      "sha256": "901c30904debefc66c5b3e9b726215ce703a61408ae235c3ab7296b77d58fb40"
+    },
+    {
+      "path": "data/tripsapien-city-hubs.csv",
+      "records": 155,
+      "sha256": "8f0cdf4f5f6b35c7cb304df4a7514a001f571ef4a2597dabc6bee3b8a6fda708"
+    }
+  ],
+  "ai_itinerary_samples": {
+    "records": 54,
+    "cities": 9,
+    "case_shapes": 6,
+    "records_per_city_shape": 1,
+    "simulated_source_labels": {
+      "ChatGPT": 18,
+      "Claude": 18,
+      "Microsoft Copilot": 18
+    },
+    "author_expected_totals": {
+      "places_or_notes": 960,
+      "opening_hours_checks": 153,
+      "booking_ahead_flags": 471,
+      "dedupe_candidates": 19,
+      "vague_place_flags": 67,
+      "day_trip_flags": 61,
+      "map_urls": 14
+    }
+  },
+  "limitations": [
+    "Rows are hand-curated demonstrations, not a random or representative sample.",
+    "Expected totals are sums of author-specified case characteristics, not observed model or product results.",
+    "The data supports no assistant ranking, accuracy estimate, precision or recall claim, or traveler-outcome claim.",
+    "The data contains no TripSapien user data and does not establish current venue status without a live check."
+  ]
+}

@@ -1,14 +1,16 @@
 cff-version: 1.2.0
-title: Tripsapien public data for AI itinerary validation
-message: Cite this dataset as Tripsapien public data for AI itinerary validation, formerly ValidaTrip.
+title: TripSapien public data for AI itinerary validation
+message: Cite this dataset as TripSapien public data for AI itinerary validation. Former names are Tripnostic, ValidaTrip, and TripPaste.
 type: dataset
 authors:
   - family-names: Miller
     given-names: Forrest
 repository-code: https://github.com/forrestmill-cmd/tripsapien-public-data
 url: https://www.tripsapien.com
+abstract: Hand-curated demonstration data for itinerary parsing and date-aware travel validation. It contains no TripSapien user data and is not a statistical benchmark.
 license: CC-BY-4.0
 date-released: '2026-05-21'
+version: '2026-07-13'
 keywords:
   - travel
   - ai-itinerary

@@ -1,6 +1,6 @@
 {
   "name": "tripsapien-public-data",
-  "description": "Public Tripsapien data for AI itinerary validation and city-guide discovery.",
+  "description": "Public TripSapien data for AI itinerary validation and city-guide discovery.",
   "license": "Creative Commons Attribution 4.0 International",
   "homepage": "https://www.tripsapien.com",
   "datasets": {
@@ -21,12 +21,12 @@
         "paste_text": "The pasted itinerary text a validator receives.",
         "validation_tasks": "Validation behaviors the row exercises.",
         "expected_outcomes": "Counts of issue categories the validator should inspect; labels are not a statistical study.",
-        "canonical_validator_url": "Tripsapien page that explains this validation task.",
+        "canonical_validator_url": "TripSapien page that explains this validation task.",
         "provenance": "Data origin statement."
       }
     },
     "tripsapien-city-hubs": {
-      "description": "Evergreen Tripsapien city-guide rows for search, citation, and city travel planning discovery.",
+      "description": "Evergreen TripSapien city-guide rows for search, citation, and city travel planning discovery.",
       "rows": 155,
       "files": [
         "data/tripsapien-city-hubs.jsonl",
@@ -34,10 +34,10 @@
       ],
       "fields": {
         "type": "Stable row type, currently tripsapien_city_hub.",
-        "city_slug": "Tripsapien SEO city slug.",
+        "city_slug": "TripSapien SEO city slug.",
         "city": "City display name.",
         "country": "Country display name.",
-        "country_code": "ISO country code used by Tripsapien.",
+        "country_code": "ISO country code used by TripSapien.",
         "canonical_url": "Evergreen city-guide URL.",
         "current_month_url": "Current rolling city-month guide URL when that month-spoke page is indexed.",
         "current_event_url": "Current rolling event page URL when that event-spoke page is indexed.",
