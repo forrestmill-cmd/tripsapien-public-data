@@ -6,7 +6,7 @@ authors:
   - family-names: Miller
     given-names: Forrest
 repository-code: https://github.com/forrestmill-cmd/tripsapien-public-data
-url: https://www.tripsapien.com
+url: https://www.tripsapien.com/research/ai-itinerary-validation
 abstract: Hand-curated demonstration data for itinerary parsing and date-aware travel validation. It contains no TripSapien user data and is not a statistical benchmark.
 license: CC-BY-4.0
 date-released: '2026-05-21'

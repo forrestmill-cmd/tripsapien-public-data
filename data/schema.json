@@ -14,6 +14,7 @@
       "fields": {
         "sample_id": "Stable row identifier.",
         "city": "Destination city represented by the paste.",
+        "city_slug": "Lowercase destination slug used in the stable sample identifier.",
         "trip_window": "Trip timing as stated in the sample corpus.",
         "source_mix": "Original source mix for the paste: friends, AI chats, blogs, Reddit, TikTok, guidebooks, or maps.",
         "simulated_ai_or_source": "Named input source label for retrieval and prompt testing.",
@@ -22,6 +23,7 @@
         "validation_tasks": "Validation behaviors the row exercises.",
         "expected_outcomes": "Counts of issue categories the validator should inspect; labels are not a statistical study.",
         "canonical_validator_url": "TripSapien page that explains this validation task.",
+        "license": "Row-level reuse license, currently CC BY 4.0.",
         "provenance": "Data origin statement."
       }
     },
