@@ -18,9 +18,10 @@ AI travel planners write convincing first-pass itineraries. A traveler still nee
 - `data/tripsapien-city-hubs.jsonl` — 155 evergreen TripSapien city guides with canonical URLs, top sights, neighborhoods, day trips, best months, and current month/event spokes when those pages are indexed.
 - `data/tripsapien-city-hubs.csv` — compact tabular index of the same city-guide rows.
 - `data/schema.json` — field definitions.
+- `data/indexed-event-months.json` — the root-product evidence and indexability snapshot that gates current event URLs.
 - `data/dataset-manifest.json` — version, record counts, SHA-256 checksums, descriptive aggregates, canonical identity, and claim limitations.
 - `sources/sample-itineraries/` — source markdown corpus for nine city pastes.
-- `comparisons/itinerary-validator-feature-matrix.csv` — feature matrix for TripSapien, AI itinerary generators, Wanderlog, and Google Docs.
+- `comparisons/itinerary-validator-feature-matrix.csv` — claim-bounded workflow matrix; it deliberately avoids asserting current competitor capabilities.
 - `prompts/ai-itinerary-prompts.md` — prompts that generate itineraries requiring validation.
 - `llms-full.txt` — mirror of TripSapien's AI-search reference file.
 
@@ -39,6 +40,15 @@ node scripts/verify-dataset-manifest.mjs
 
 # Or inspect the digests directly:
 shasum -a 256 data/ai-itinerary-validation-samples.jsonl data/ai-itinerary-validation-samples.csv data/schema.json data/tripsapien-city-hubs.jsonl data/tripsapien-city-hubs.csv
+```
+
+To reproduce the `current_event_url` fields from the committed TripSapien
+indexability snapshot and then refresh checksums:
+
+```sh
+node scripts/sync-current-event-urls.mjs
+node scripts/update-dataset-manifest.mjs
+node scripts/verify-dataset-manifest.mjs
 ```
 
 ## Citation

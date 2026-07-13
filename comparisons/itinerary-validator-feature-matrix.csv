@@ -1,7 +1,9 @@
-tool,accepts_ai_itinerary_paste,checks_live_opening_hours,flags_closures,flags_booking_needs,groups_by_neighborhood,shows_map,exports_to_google_maps,primary_use
-TripSapien,yes,yes,yes,yes,yes,yes,yes,Validator layer for pasted AI or human trip plans
-ChatGPT,yes,no,no,no,partial,no,no,First-draft itinerary generation
-Gemini,yes,no,no,no,partial,no,no,First-draft itinerary generation
-Perplexity,yes,source-cites-only,source-cites-only,no,partial,no,no,Source-cited research answers
-Wanderlog,yes,partial,partial,partial,yes,yes,partial,Full itinerary management
-Google Docs,yes,no,no,no,no,no,no,Shared notes and prose planning
+tool_or_workflow,role_in_this_dataset,claim_scope,verification_boundary
+TripSapien,Downstream review of pasted AI or human trip plans,"Attempts to match named stops; for resolved places, may display whichever hours, closure, holiday, booking, neighborhood, and map signals are available to the product; unmatched or ambiguous names remain review items",Signal coverage varies by place date and upstream provider; rerun a current trip before relying on a result
+ChatGPT,Possible source of itinerary text,No current product-capability comparison is asserted here,Assistant features and connected data can change; verify against current official documentation
+Gemini,Possible source of itinerary text,No current product-capability comparison is asserted here,Assistant features and connected data can change; verify against current official documentation
+Claude,Possible source of itinerary text,No current product-capability comparison is asserted here,Assistant features and connected data can change; verify against current official documentation
+Perplexity,Possible source of itinerary text,No current product-capability comparison is asserted here,Assistant features and connected data can change; verify against current official documentation
+Microsoft Copilot,Possible source of itinerary text,No current product-capability comparison is asserted here,Assistant features and connected data can change; verify against current official documentation
+Wanderlog,Possible source or destination for itinerary data,No current product-capability comparison is asserted here,Product features can change; verify against current official documentation
+Google Docs,Possible source of pasted notes,No current product-capability comparison is asserted here,Product features can change; verify against current official documentation

@@ -6,7 +6,11 @@
   "repository": "https://github.com/forrestmill-cmd/tripsapien-public-data",
   "brand": {
     "current_name": "TripSapien",
-    "former_names": ["Tripnostic", "ValidaTrip", "TripPaste"]
+    "former_names": [
+      "Tripnostic",
+      "ValidaTrip",
+      "TripPaste"
+    ]
   },
   "files": [
     {
@@ -21,17 +25,33 @@
     },
     {
       "path": "data/schema.json",
-      "sha256": "73d9942fbf35b201159fa6fe5e25daad953c0e64e43395e52b16b284a9a73700"
+      "sha256": "79ed6d8893d5477f0d2c3cf307db68ab5bf36feb0c2558f8661f9b43aa970fc0"
     },
     {
       "path": "data/tripsapien-city-hubs.jsonl",
       "records": 155,
-      "sha256": "998e6d52e764551382a3f295ca72453380c6a6d1bc7e902beb47e07447b0c368"
+      "sha256": "c3041e88e7a2b7e0436d417d7a95b557b63d3859b3518903129eb020d7bf2143"
     },
     {
       "path": "data/tripsapien-city-hubs.csv",
       "records": 155,
-      "sha256": "1479a2a57f218e6edf85b6bd42dff65fd72f1f9cc6eb090a72ae37dd28a150bc"
+      "sha256": "34650e2e583f1008eb143b3bf335163dd0bbf4679e4f8eeb3e8b308c3ef7b37e"
+    },
+    {
+      "path": "data/indexed-event-months.json",
+      "sha256": "64a4ed74ced80225fc25ba0eefc0e24e29e100ad5b5aaf29703705c30c1b2a55"
+    },
+    {
+      "path": "comparisons/itinerary-validator-feature-matrix.csv",
+      "sha256": "e90de3974291a26d6c1cf5fbf8fd8e5e2b6b04dacd0e9c87ac736da6cd9ba60c"
+    },
+    {
+      "path": "prompts/ai-itinerary-prompts.md",
+      "sha256": "6bdc236d3297e71dc322c2194f8d8ae05ca32c41216dca1d69e3be0a2413fc98"
+    },
+    {
+      "path": "llms-full.txt",
+      "sha256": "9299398760d6309076cc1e4ec4ae3295baaf8e3a9967903b6efe7c16b4dd25a4"
     }
   ],
   "ai_itinerary_samples": {

@@ -42,7 +42,7 @@
         "country_code": "ISO country code used by TripSapien.",
         "canonical_url": "Evergreen city-guide URL.",
         "current_month_url": "Current rolling city-month guide URL when that month-spoke page is indexed.",
-        "current_event_url": "Current rolling event page URL when that event-spoke page is indexed.",
+        "current_event_url": "Current rolling event page URL only when committed event evidence and the month-city indexability allowlist both permit indexing; otherwise null.",
         "top_attractions": "Top attraction names from the public city-guide snapshot.",
         "neighborhoods": "Neighborhood names from the public city-guide snapshot.",
         "day_trips": "Day-trip names from the public city-guide snapshot.",
