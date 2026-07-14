@@ -1,8 +1,8 @@
 {
   "month_slug": "july-2026",
-  "generated_on": "2026-07-13",
+  "generated_on": "2026-07-14",
   "source_repository": "https://github.com/forrestmill-cmd/tripsapien",
-  "source_commit": "c2e78a01f15f571aae5e6d05c5a76311f9835647",
+  "source_commit": "ca2f362985f86d6b4ce319aa2ad60afe38be8b83",
   "source_rules": [
     "lib/seo/eventIndexability.ts#getStableEventMonthEvidence",
     "lib/seo/distinctMonthCities.ts#DISTINCT_MONTH_CITIES_SET"
