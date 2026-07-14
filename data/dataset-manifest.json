@@ -39,7 +39,7 @@
     },
     {
       "path": "data/indexed-event-months.json",
-      "sha256": "008fdc3f5fdd8f417f8303924be29d7269aa66262ec53fcf644440304e88ef74"
+      "sha256": "cc0f654f60a62efe37ca289fb782e3050a33c32a89a86352535c0248da6bfb8f"
     },
     {
       "path": "comparisons/itinerary-validator-feature-matrix.csv",
