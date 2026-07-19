@@ -1,6 +1,6 @@
 {
   "name": "TripSapien public data",
-  "version": "2026-07-13",
+  "version": "2026-07-19",
   "license": "CC BY 4.0",
   "canonical_dataset_page": "https://www.tripsapien.com/research/ai-itinerary-validation",
   "repository": "https://github.com/forrestmill-cmd/tripsapien-public-data",
@@ -52,6 +52,16 @@
     {
       "path": "llms-full.txt",
       "sha256": "c2df467ca9341e458c3115d806298d0d70fdd234092aa94ce21c57b1f7b809f0"
+    },
+    {
+      "path": "data/festival-calendar-2026-2027.jsonl",
+      "records": 4618,
+      "sha256": "b7d1a604240fb5b5621d0f58249018adde0d431f547950b609b5faceef6e5073"
+    },
+    {
+      "path": "data/festival-calendar-2026-2027.csv",
+      "records": 4618,
+      "sha256": "42e3e91efddcc7d99ba78157808982998e037467961135afa7da8fce34e864df"
     }
   ],
   "ai_itinerary_samples": {
